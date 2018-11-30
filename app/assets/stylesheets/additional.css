@@ -1,0 +1,103 @@
+main {	
+	padding-left: 300px;
+}
+
+h2.section.header {
+    font-family: Raleway, sans-serif;
+}
+
+a.brand-logo.black-text {
+    text-align: center;
+    font-family: Raleway, sans-serif;
+}
+
+strong {
+    font-weight: 900;
+}
+
+.sidenav li>a {
+    color: rgba(0,0,0,0.87);
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 32px;
+}
+
+ul.sidenav.sidenav-fixed li.logo {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+ul.sidenav.sidenav-fixed li {
+    line-height: 44px;
+}
+
+#logo-container {
+    height: 230px;
+}
+
+ul.sidenav.sidenav-fixed h2 {
+	 text-align: center;
+	font-family: Raleway;
+}
+
+div#home {
+    height: 400px;
+}
+
+div#experience {
+    color: #ffff;
+}
+
+img.circle.responsive-img.experience {
+    max-width: 175px;
+}
+
+.section.design.cyan.darken-4 {
+    padding-bottom: 0;
+}
+
+.inline-icon {
+   vertical-align: bottom;
+   font-size: 29px !important;
+}
+p.white-text.connect {
+    font-size: 1.6rem;
+}
+
+.alert.alert-notice {
+    background-color: #4db6ac;
+    font-size: 21px;
+    color: #fff;
+}
+
+.alert.alert-alert {
+    background-color: #e57373;
+    font-size: 21px;
+    color: #fff;
+}
+
+
+div.field_with_errors > input#email {
+    border-bottom: 1px solid #e57373;
+    box-shadow: 0 1px 0 0 #e57373;
+}
+
+div.field_with_errors > input#name {
+    border-bottom: 1px solid #e57373;
+    box-shadow: 0 1px 0 0 #e57373;
+}
+
+footer {	
+	padding-left: 300px;
+}
+
+footer.page-footer {
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #263238;
+}

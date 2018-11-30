@@ -1,0 +1,43 @@
+<div class="section white" id="connect">
+<div class="container">
+    <div class="row">
+       <div id="contact" class="col s12 m12 contact">
+        <h2 class="section-text center">Contact Me.</h2>
+          <p class="flow-text center">I'm currently seeking a full-time position or contract work. </p> 
+       </div> 
+    </div>
+          <%= form_for @contact, validate: true do |f| %>
+          <div class="row">
+          <div class="col s12">
+            <label class="active" for="name">Name</label>
+             <%= f.text_field :name, :id => "name", :class => "validate", :type => "text" %>
+          </div>
+          </div>
+         <div class="row">
+         <div class="col s12">
+          <label class="active" for="email">Email</label>
+          <%= f.text_field :email, :id => "email", :class => "validate", :type => "text" %>
+         </div>
+         </div>
+         <div class="row">
+          <div class="col s12">
+          <label class="active" for="subject">Subject</label>
+          <%= f.text_field :subject, :id => "message", :class => "materialize-textarea" %>
+          </div>
+         </div>
+          <div class="row">
+          <div class="col s12">
+          <label class="active" for="message">Message</label>
+          <%= f.text_area :message, :id => "message", :class => "materialize-textarea" %>
+          </div>
+         </div>
+
+          <div style="padding-top: 15px;" class="col s12 center-align">
+            <%= button_tag(type: 'submit', class: "waves-effect waves-light btn") do %>
+              Send <i class="material-icons right">send</i>
+         <% end %>
+                  <%= f.text_field :nickname, :style => 'visibility: hidden;'  %>       
+   </div>
+   <% end %>
+   </div>
+</div>
