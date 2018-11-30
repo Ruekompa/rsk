@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: rsk_production
-  username: Rails.application.credentials.production[:postgres][:username]
-  password: Rails.application.credentials.production[:postgres][:password]
+  username: rsk
+  password: <%= ENV['RSK_DATABASE_PASSWORD'] %>
