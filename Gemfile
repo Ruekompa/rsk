@@ -35,7 +35,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'jquery-rails', '~> 4.3'
 
-gem 'materialize-sass', '~> 1.0.0'
+gem 'materialize-sass', '~> 1.0.0', :git => 'https://github.com/Ruekompa/materialize-sass.git'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
