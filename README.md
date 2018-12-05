@@ -1,24 +1,9 @@
-# README
+# Personal Portolio & Resume Website.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Ruby Version
+2.5.3p105
 
-Things you may want to cover:
+## Rails Version
+Rails 5.2.1
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
