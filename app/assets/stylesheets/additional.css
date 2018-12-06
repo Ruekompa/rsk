@@ -91,6 +91,11 @@ div.field_with_errors > input#name {
     box-shadow: 0 1px 0 0 #e57373;
 }
 
+div.field_with_errors > textarea#message {
+    border-bottom: 1px solid #e57373;
+    box-shadow: 0 1px 0 0 #e57373;
+}
+
 footer {	
 	padding-left: 300px;
 }
