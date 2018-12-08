@@ -1,4 +1,4 @@
-# Personal Portolio & Resume Website.
+# Personal Portfolio & Resume Website.
 
 ## Ruby Version
 2.5.3p105
